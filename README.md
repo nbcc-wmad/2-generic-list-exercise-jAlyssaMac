@@ -9,7 +9,7 @@ ArrayLists and Structures
 Code a form that allows Professor Carver to display a grade
 based on the number of points she enters.<br />
 
-![Drag Racing](Screenshot_2.png)
+![form1 screenshot](Screenshot_2.png)
 
 The grading scale is as follows:
 <br />
