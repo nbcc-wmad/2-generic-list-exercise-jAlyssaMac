@@ -35,25 +35,28 @@
             // 
             // btnFindScore
             // 
+            this.btnFindScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFindScore.Location = new System.Drawing.Point(124, 100);
             this.btnFindScore.Name = "btnFindScore";
             this.btnFindScore.Size = new System.Drawing.Size(75, 23);
             this.btnFindScore.TabIndex = 0;
             this.btnFindScore.Text = "&Find Grade:";
             this.btnFindScore.UseVisualStyleBackColor = true;
+            this.btnFindScore.Click += new System.EventHandler(this.btnFindScore_Click);
             // 
             // lblScore
             // 
             this.lblScore.AutoSize = true;
+            this.lblScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore.Location = new System.Drawing.Point(27, 48);
             this.lblScore.Name = "lblScore";
-            this.lblScore.Size = new System.Drawing.Size(38, 13);
+            this.lblScore.Size = new System.Drawing.Size(55, 17);
             this.lblScore.TabIndex = 1;
             this.lblScore.Text = "Score:";
             // 
             // txtScore
             // 
-            this.txtScore.Location = new System.Drawing.Point(99, 41);
+            this.txtScore.Location = new System.Drawing.Point(99, 48);
             this.txtScore.Name = "txtScore";
             this.txtScore.Size = new System.Drawing.Size(100, 20);
             this.txtScore.TabIndex = 2;
@@ -68,6 +71,7 @@
             this.Controls.Add(this.btnFindScore);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
